@@ -1,0 +1,2 @@
+Bu matn fayli.
+Node.js da fs.readFileSync yordamida o'qiladi.

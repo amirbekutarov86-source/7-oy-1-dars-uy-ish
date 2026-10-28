@@ -1,0 +1,22 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Node.js loyiha: modul, fs, buffer, axios va todo list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "node --watch index.js",
+    "server": "node main.js",
+    "server:watch": "node --watch main.js",
+    "test": "jest --coverage",
+    "test:int": "jest __int_tests__",
+    "build": "node scripts/build.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.21.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
